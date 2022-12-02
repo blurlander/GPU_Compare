@@ -1,0 +1,269 @@
+.navbar-items {
+    display: flex;
+    position: fixed;
+    z-index:10;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+}
+ .teko-style {
+    font-family: 'Teko', sans-serif;
+ }
+
+ .footer {
+     background-color: gray;
+
+ }
+ 
+  .navbar-item  {
+
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+}
+
+  .navbar-item:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+  .active{
+      background-color: goldenrod !important;
+  }
+  .active:hover{
+      background-color: goldenrod !important;
+  }
+  .brand:hover {
+      background-color: #333 !important;
+
+  }
+  
+  #search {
+      float: right;
+      text-align: center;
+      width: 25%;
+      margin-top: 10px;
+      margin-right: 10px;
+      
+  }
+  #search2 {
+    text-align: center;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+  .shadowbox{
+    box-shadow: 0px 4px 8px grey;
+  }
+  .d-block{
+      height: 750px;
+  }
+
+  .home-body{
+      background-color: #E4E4E4;
+      text-align: center;
+
+  }
+
+  .gpu-list-body{
+    background-color: #E4E4E4;
+
+  }
+  .card-img{
+      transition: all 0.3s;
+      transform: scale(1);
+      height: 90%;
+      width: 90%;
+      margin: 2rem;
+      border-radius: 5%;
+  }
+  .card-img:hover{
+      transform: scale(1.1) !important;
+
+      
+  }
+  .card{
+      margin-top: 3rem;
+      background-color: white;
+      overflow: hidden;
+  
+  }
+  .container{
+      background-color: white;
+      text-align: center;
+  }
+  .list-item-img{
+      height: 10rem;
+      width: 90%;
+      margin-right: 5rem;
+  }
+  .list-item{
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      transition: 0.2s ease-in-out;
+  }
+  .list-item:hover{
+    box-shadow: 0 0 11px grey;
+    
+  }
+  .badge{
+      margin-right: 1rem;
+  }
+  select{
+      height: 3rem;
+      width: 12rem;
+      border-radius: 3%;
+  }
+  .filter{
+      text-align: left;
+  }
+  .footer-icon{
+      transform: scale(1);
+      transition: 0.1s;
+  }
+  .footer-icon:hover{
+      transform: scale(1.1);
+  }
+  .img-700{
+      height: 700px;
+      width: 80%;
+  }
+  .img-news{
+      width: 95%;
+      height: 400px;
+      margin: 1rem 0.5rem;
+  }
+  .p-news{
+      color: white;
+      font-size: 1.2rem;
+  }
+  .hidden{
+      display: none !important;
+  }
+  .close-btn{
+      border-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #FFC107;
+  }
+  .close-btn:hover{
+      color: grey;
+  }
+  @media only screen and (max-width: 1350px) {
+    .compare-col{
+        width: 400px !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .compare-col img{
+        height: 500px !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .compare-check {
+        padding: 2px 6px;
+        font-size: 0.7rem;
+        
+    }
+    .col .badge {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+        margin-left: 45% !important;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .list-item {
+        font-size: 0.9rem;
+    }
+    .list-item-img {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    }
+    .navbar-items{
+        font-size: 0.8rem;
+    }
+    #compare{
+        font-size: 0.8rem;
+        padding: 3px 6px;
+    }
+    .img-700{
+        height: 300px ;
+    }
+  iframe {
+    width: 550px !important;
+    height: 380px !important ;
+}
+    select{
+        width: 100px !important;
+       
+    }
+    #gpu-list-brand{
+        font-size: 3rem !important;
+    }
+}
+@media only screen and (max-width: 548px) {
+    iframe {
+        width: 450px !important;
+        height: 320px !important ;
+    }
+    .compare-col{
+        width: 300px !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .compare-col img{
+        height: 400px !important;
+    }
+}
+
+  #search-btn-2{
+    margin-right: 2rem;
+}
+ .alert{
+     z-index: 9;
+     font-size: 1.2rem;
+ }
+ .roww{
+     text-align: center;
+     width: 100%;
+     background-color: gray;
+ }
+ #imgrow{
+     max-height: 700px !important;
+ }
+ .compare-col{
+     display: inline-block;
+     width: 600px;
+     margin-right: 3rem;
+     margin-left: 3rem;
+ }
+ .compare-col table{
+     width: 90%;
+     margin-top: 1rem;
+ }
+ .compare-col img{
+     width: 90% !important;
+     height: 700px;
+ }
+ .comparebody{
+    overflow-x: scroll;
+    white-space: nowrap;
+ }
+ #namerow{
+     font-size: 3rem;
+     color: white;
+ }
